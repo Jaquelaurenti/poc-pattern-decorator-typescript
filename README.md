@@ -1,5 +1,27 @@
 # poc-pattern-decorator-typescript
+### Instalando e Testando a aplicação
 
+```
+npm install
+```
+```
+npm run build
+```
+```
+npm run start
+```
+
+Após rodar o comando acima, visualize o console log e veja a execução dos componentes
+
+```
+Executando operação do componente base.
+Executando operação do Decorator A.
+Executando operação do componente base.
+Executando operação do Decorator B.
+Executando operação do componente base.
+Executando operação do Decorator A.
+Executando operação do Decorator B.
+```
 ### Entendendo a estrutura das pastas desta aplicação
 
 - src: Pasta raiz do projeto.
