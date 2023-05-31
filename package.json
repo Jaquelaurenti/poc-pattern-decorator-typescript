@@ -1,0 +1,24 @@
+{
+  "name": "poc-pattern-decorator-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaquelaurenti/poc-pattern-decorator-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaquelaurenti/poc-pattern-decorator-typescript/issues"
+  },
+  "homepage": "https://github.com/Jaquelaurenti/poc-pattern-decorator-typescript#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
