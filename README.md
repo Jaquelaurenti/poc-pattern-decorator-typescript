@@ -1,6 +1,6 @@
 # poc-pattern-decorator-typescript
 
-### Entendendo a estrutura
+### Entendendo a estrutura das pastas desta aplicação
 
 - src: Pasta raiz do projeto.
 - src/components: Pasta para os componentes principais.
@@ -31,3 +31,15 @@ Permitir a combinação flexível de comportamentos: Com o Decorator, você pode
 Separar responsabilidades: O Decorator ajuda a manter cada responsabilidade separada em decoradores individuais. Isso facilita a compreensão e a manutenção do código, pois cada decorador é responsável por uma única responsabilidade.
 
 Adicionar funcionalidades de terceiros: O Decorator também é útil quando você deseja adicionar funcionalidades fornecidas por bibliotecas de terceiros a um objeto existente. Em vez de modificar diretamente a classe do objeto, você pode encapsular o objeto com decoradores que fornecem a funcionalidade desejada.
+
+### Benefícios em utilizar o Decorator
+
+Extensibilidade: O Decorator permite adicionar responsabilidades extras a um objeto de forma flexível e modular, sem modificar sua estrutura original. Isso significa que você pode estender as funcionalidades de um objeto existente sem a necessidade de criar subclasses adicionais ou modificar o código existente. Isso torna o sistema mais extensível e facilita a adição de novos comportamentos.
+
+Flexibilidade: O Decorator permite a combinação dinâmica de comportamentos através da composição de objetos decoradores. Você pode adicionar ou remover decoradores em tempo de execução, conforme necessário. Isso oferece uma grande flexibilidade na criação de objetos com diferentes combinações de funcionalidades, permitindo ajustar o comportamento do objeto de forma granular.
+
+Manutenção e reutilização de código: O Decorator ajuda a manter as responsabilidades separadas e coesas. Cada decorador é responsável por uma única responsabilidade adicional. Isso torna o código mais modular e de fácil manutenção, pois cada decorador pode ser desenvolvido, testado e mantido independentemente. Além disso, os decoradores podem ser facilmente reutilizados em diferentes contextos, pois são componentes independentes.
+
+Transparência: O Decorator permite que os objetos decorados se comportem de maneira transparente em relação aos objetos não decorados. Isso significa que o cliente que utiliza um objeto decorado não precisa se preocupar com a presença de decoradores, pois eles agem como o objeto base. Isso simplifica o uso e a interação com objetos decorados.
+
+Segregação de responsabilidades: O Decorator permite que você adicione responsabilidades extras a um objeto de forma seletiva. Isso evita a criação de classes monolíticas que realizam muitas tarefas diferentes. Em vez disso, você pode dividir as responsabilidades em decoradores individuais, o que resulta em um código mais limpo e de fácil compreensão.
